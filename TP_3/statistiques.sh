@@ -1,6 +1,9 @@
 #!/usr/bin/bash
 
 
+
+echo "Initialisation..."
+
 DIR_VIDE=$(find $HOME -type d -empty | wc -l)
 F_VIDE=$(find $HOME -type f -empty | wc -l)
 DIR_CACHE=$(find $HOME -type d -name '*.*' | wc -l)
